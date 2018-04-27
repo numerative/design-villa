@@ -28,7 +28,9 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
-        <activity android:name="udacity.designvilla.HomeActivity"></activity>
+        <activity
+            android:name="udacity.designvilla.HomeActivity"
+            android:theme="@style/LightStatusBarTheme" />
     </application>
 
 </manifest>

@@ -10,6 +10,13 @@
         <item name="android:textColorSecondary">@android:color/white</item>
         <item name="android:windowTranslucentNavigation">true</item>
         <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <!--So as to display the status bar in Light Color. Otherwise, it switches back to dark when
+        when windowTranslucentStatus and fitsSystemWindows are true-->
+    <style name="LightStatusBarTheme" parent="AppTheme">
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
     </style>
 
     <style name="match_parent">
@@ -38,4 +45,4 @@
         <item name="android:layout_width">wrap_content</item>
     </style>
 
-    </resources>
+</resources>
