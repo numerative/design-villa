@@ -11,14 +11,18 @@
         android:theme="@style/AppTheme">
 
         <!-- Splash Activity -->
-        <activity android:name="udacity.designvilla.SplashScreenActivity">
+        <activity
+            android:name="udacity.designvilla.SplashScreenActivity"
+            android:noHistory="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="udacity.designvilla.LoginActivity" />
+        <activity
+            android:name="udacity.designvilla.LoginActivity"
+            android:noHistory="true" />
 
         <meta-data
             android:name="preloaded_fonts"
